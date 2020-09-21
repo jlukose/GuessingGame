@@ -14,7 +14,6 @@ int main() {
   while (replay == true) {//Start of game
     cout << "Guess a number between 0 and 100" << endl;
     int number = rand() % 101;
-    cout << number;
     playing = true;
     while (playing == true) {//Checking guesses
       cin >> guess;
